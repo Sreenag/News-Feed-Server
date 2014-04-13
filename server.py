@@ -3,7 +3,7 @@ from flask import Flask, request
 
 
 class News:
-	__app = Flask("Ziphon",static_folder='public', static_url_path='')
+	__app = Flask("News",static_folder='public', static_url_path='')
 
 	@__app.route("/")
 	def hello():
